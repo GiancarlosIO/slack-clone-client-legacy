@@ -12,7 +12,7 @@
     "client:build": "npx webpack --progress --config webpack/production.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "giancarlos.isasi@gmail.com",
   "license": "ISC",
   "dependencies": {
     "apollo-client": "^2.2.5",
