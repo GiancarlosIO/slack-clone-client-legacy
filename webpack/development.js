@@ -4,6 +4,7 @@ const { resolve } = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const WebpackBuildNotifier = require('webpack-build-notifier');
+const WebpackAnalyzer = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const sharedConfig = require('./shared');
 
@@ -37,6 +38,10 @@ const config = merge(sharedConfig, {
     // activate hmr
     // new webpack.NoEmitOnErrorsPlugin(), // by default in v4
     new webpack.HotModuleReplacementPlugin(),
+
+    // activate if u need
+    new WebpackAnalyzer(),
+
   ],
   devtool: 'eval-source-map',
 });

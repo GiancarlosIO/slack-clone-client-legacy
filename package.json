@@ -8,7 +8,7 @@
     "start": "npm run server & npm run client:start",
     "server": "nodemon --ignore src/ --exec npx babel-node ./server/index.js ",
     "client:start": "npx webpack-dev-server --colors --inline --progress --config webpack/development.js",
-    "dll": "webpack --progress --config webpack/dll.js",
+    "dll:build": "webpack --progress --config webpack/dll.js",
     "client:build": "npx webpack --progress --config webpack/production.js"
   },
   "keywords": [],
@@ -42,9 +42,11 @@
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
+    "google-closure-compiler-js": "^20180204.0.0",
     "graphql-tag": "^2.8.0",
     "nodemon": "^1.15.1",
     "webpack-build-notifier": "^0.1.23",
+    "webpack-bundle-analyzer": "^2.11.0",
     "webpack-cli": "^2.0.9",
     "webpack-merge": "^4.1.2"
   }

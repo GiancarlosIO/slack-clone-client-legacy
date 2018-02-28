@@ -4,7 +4,7 @@ import { hot } from 'react-hot-loader';
 const App = () => (
   <div>
     <h2>
-      <p>HELLO WEBPACK V10</p>
+      <p>HELLO WEBPACK V4</p>
     </h2>
   </div>
 );
