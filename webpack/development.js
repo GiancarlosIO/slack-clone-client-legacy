@@ -29,6 +29,11 @@ const config = merge(sharedConfig, {
     // HMR is enabled. Suggested for use in development.
     // new webpack.NamedModulesPlugin(), // by default in v4
 
+    // dll
+    new webpack.DllReferencePlugin({
+      manifest: require('../server/public/dist/vendor-manifest.json'), // eslint-disable-line
+    }),
+
     // activate hmr
     // new webpack.NoEmitOnErrorsPlugin(), // by default in v4
     new webpack.HotModuleReplacementPlugin(),

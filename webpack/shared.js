@@ -15,10 +15,12 @@ const {
   alias,
 } = require('./configuration');
 
+const { vendor, ...rest } = entries;
+
 module.exports = {
-  entry: entries,
+  entry: rest,
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '..', 'server/public/dist'),
     publicPath: '/static/js/',
     filename: '[name].min.js',
     chunkFilename: '[name].[chunkhash:8].chunk.js',
