@@ -40,7 +40,7 @@ const config = merge(sharedConfig, {
     new webpack.HotModuleReplacementPlugin(),
 
     // activate if u need
-    new WebpackAnalyzer(),
+    // new WebpackAnalyzer(),
 
   ],
   devtool: 'eval-source-map',

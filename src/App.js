@@ -1,13 +1,12 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
 
+import Routes from './Routes/';
+
 const App = () => (
   <div>
-    <h2>
-      <p>HELLO WEBPACK V4</p>
-    </h2>
+    <Routes />
   </div>
 );
 
 export default hot(module)(App);
-
