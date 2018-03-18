@@ -7,6 +7,7 @@ const nodeModulesPath = resolve(__dirname, '..', 'node_modules');
 
 const entries = {
   vendor: [
+    'babel-polyfill',
     'react',
     'react-dom',
     'react-apollo',
