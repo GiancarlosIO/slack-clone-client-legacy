@@ -7,15 +7,6 @@ const sharedConfig = require('./shared');
 module.exports = merge(sharedConfig, {
   mode: 'production',
   target: 'web',
-  plugins: [
-    // new ClosureCompiler({
-    //   options: {
-    //     languageIn: 'ECMASCRIPT6',
-    //     languageOut: 'ECMASCRIPT5',
-    //     compilationLevel: 'SIMPLE',
-    //     warningLevel: 'VERBOSE',
-    //   },
-    // }),
-  ],
+  devtool: 'none',
 });
 
