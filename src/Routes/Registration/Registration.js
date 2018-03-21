@@ -7,6 +7,8 @@ import {
   Header,
   Button,
   Message,
+  Grid,
+  Form,
 } from 'semantic-ui-react';
 
 // murations
@@ -60,7 +62,6 @@ class Registration extends Component {
   }
 
   render() {
-    console.log('error', this.state);
     const {
       username,
       email,
@@ -72,48 +73,57 @@ class Registration extends Component {
     const errorList = Object.keys(errors).map(err => errors[err]);
 
     return (
-      <Container text>
-        <Header as="h2">Register</Header>
-        <Input
-          error={!!errors.username}
-          onChange={this.onChange('username')}
-          placeholder="username"
-          value={username}
-          disabled={loading}
-          fluid
-        />
-        <Input
-          error={!!errors.email}
-          onChange={this.onChange('email')}
-          placeholder="email"
-          value={email}
-          disabled={loading}
-          fluid
-        />
-        <Input
-          error={!!errors.password}
-          onChange={this.onChange('password')}
-          type="password"
-          placeholder="password"
-          value={password}
-          disabled={loading}
-          fluid
-        />
-        <Button
-          primary
-          onClick={this.onSubmit}
-          type="submit"
-          loading={loading}
-        >
-          Submit
-        </Button>
-        {errorList.length > 0 ? (
-          <Message
-            error
-            header="Check the errors:"
-            list={errorList}
-          />
-        ) : null}
+      <Container>
+        <Grid padded centered>
+          <Grid.Column width={9}>
+            <Form
+              onSubmit={this.onSubmit}
+              error={errorList.length > 0}
+              loading={loading}
+            >
+              <Header as="h2">Register</Header>
+              <Form.Input
+                label="Username"
+                error={!!errors.username}
+                onChange={this.onChange('username')}
+                placeholder="username"
+                value={username}
+                disabled={loading}
+                fluid
+              />
+              <Form.Input
+                label="Email"
+                error={!!errors.email}
+                onChange={this.onChange('email')}
+                placeholder="email"
+                value={email}
+                disabled={loading}
+                fluid
+              />
+              <Form.Input
+                label="Password"
+                error={!!errors.password}
+                onChange={this.onChange('password')}
+                type="password"
+                placeholder="password"
+                value={password}
+                disabled={loading}
+                fluid
+              />
+              <Button
+                primary
+                type="submit"
+              >
+                Submit
+              </Button>
+              <Message
+                error
+                header="Check the errors:"
+                list={errorList}
+              />
+            </Form>
+          </Grid.Column>
+        </Grid>
       </Container>
     );
   }
