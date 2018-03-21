@@ -16,6 +16,9 @@ const entries = {
     'apollo-link-error',
     'apollo-link-http',
     'styled-components',
+    'react-router-dom',
+    'semantic-ui-react',
+    'semantic-ui-css',
   ],
   app: getPath('index.js'),
 };

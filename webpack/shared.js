@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const webpack = require('webpack');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 // always use absolute paths for urls directories
 const path = require('path');
@@ -46,6 +47,9 @@ module.exports = {
       exclude: /a\.js|node_modules/,
       failOnError: false,
     }),
+
+    // activate if you need
+    // new BundleAnalyzerPlugin(),
   ],
 };
 

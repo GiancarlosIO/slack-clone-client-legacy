@@ -2,6 +2,7 @@
 const path = require('path');
 // const ClosureCompiler = require('google-closure-compiler-js').webpack;
 const webpack = require('webpack');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 const {
   entries,
@@ -23,18 +24,13 @@ module.exports = {
     library: '[name]_[hash]',
   },
   plugins: [
-    // new ClosureCompiler({
-    //   options: {
-    //     languageIn: 'ECMASCRIPT6',
-    //     languageOut: 'ECMASCRIPT5',
-    //     compilationLevel: 'SIMPLE',
-    //     warningLevel: 'VERBOSE',
-    //   },
-    // }),,
     new webpack.DllPlugin({
       path: path.join(__dirname, '..', 'server/public/dist', '[name]-manifest.json'),
       name: '[name]_[hash]',
     }),
+
+    // activa if your need
+    // new BundleAnalyzerPlugin(),
   ],
 };
 
