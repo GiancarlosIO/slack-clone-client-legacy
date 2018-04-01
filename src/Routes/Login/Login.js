@@ -9,7 +9,13 @@ import {
   Grid,
 } from 'semantic-ui-react';
 
+import loginMutation from './graphq/login.graphql';
+
 class Login extends Component {
+  static propTypes = {
+    login: PropTypes.func.isRequired,
+  }
+
   state = {
     email: '',
     password: '',
@@ -21,6 +27,33 @@ class Login extends Component {
   onSubmit = (e) => {
     e.preventDefault();
 
+    const { login } = this.props;
+    const { email, password } = this.state;
+
+    this.setState({ loading: true }, () => {
+      login({ variables: { email, password } })
+        .then(({
+          data: {
+            login: {
+              ok, user, token, refreshToken, errors,
+            },
+          },
+        }) => {
+          this.setState({ loading: false }, () => {
+            if (ok) {
+              window.localStorage.setItem('token', token);
+              window.localStorage.setItem('refreshToken', refreshToken);
+              console.log(user, token, refreshToken);
+            } else {
+              console.log('error to log user', errors);
+            }
+          });
+        })
+        .catch((err) => {
+          console.log('Error in login mutation', err);
+          this.setState({ loading: false });
+        });
+    });
     console.log(this.state);
   }
 
@@ -61,4 +94,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default graphql(loginMutation, { name: 'login' })(Login);

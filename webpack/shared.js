@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const webpack = require('webpack');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer'); // eslint-disable-line
 
 // always use absolute paths for urls directories
 const path = require('path');

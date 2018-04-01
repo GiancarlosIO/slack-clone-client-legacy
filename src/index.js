@@ -9,9 +9,11 @@ import { ApolloProvider } from 'react-apollo';
 // client for apollo
 import { ApolloClient } from 'apollo-client';
 // http config for apollo (endpoint, cache, etc)
-import { HttpLink } from 'apollo-link-http';
+import { createHttpLink } from 'apollo-link-http';
 // display errors
 import { onError } from 'apollo-link-error';
+// set or get the context of apollo
+import { setContext } from 'apollo-link-context';
 // cache
 import { InMemoryCache } from 'apollo-cache-inmemory';
 
@@ -28,14 +30,30 @@ const linkError = onError(({ graphQLErrors, networkError }) => {
   if (networkError) console.log(`[Network Error]: ${networkError}`);
 });
 
-const linkHttp = new HttpLink({
+const httpLink = createHttpLink({
   uri: 'http://localhost:4000/graphql/',
+});
+
+const authLink = setContext((request, previusContenxt) => {
+  // get the auth token from the local storage if it exists
+  const token = localStorage.getItem('token');
+
+  console.log('previusContenxt', previusContenxt);
+  console.log('request', request);
+  // return the headers to the context so httplink can read them
+  return {
+    headers: {
+      ...request.headers,
+      authorization: token ? token : '', // eslint-disable-line no-unneeded-ternary
+    },
+  };
 });
 
 const client = new ApolloClient({
   link: ApolloLink.from([
     linkError,
-    linkHttp,
+    authLink,
+    httpLink,
   ]),
   cache: new InMemoryCache(),
 });
