@@ -7,6 +7,7 @@ import {
   Button,
   Form,
   Grid,
+  Message,
 } from 'semantic-ui-react';
 
 import loginMutation from './graphq/login.graphql';
@@ -20,6 +21,9 @@ class Login extends Component {
     email: '',
     password: '',
     loading: false,
+    passwordError: null,
+    emailError: null,
+    extraError: null,
   }
 
   onChange = field => e => this.setState({ [field]: e.target.value })
@@ -27,10 +31,15 @@ class Login extends Component {
   onSubmit = (e) => {
     e.preventDefault();
 
+    const clearErrors = {
+      emailError: null,
+      passwordError: null,
+      extraError: null,
+    };
     const { login } = this.props;
     const { email, password } = this.state;
 
-    this.setState({ loading: true }, () => {
+    this.setState({ loading: true, ...clearErrors }, () => {
       login({ variables: { email, password } })
         .then(({
           data: {
@@ -46,19 +55,38 @@ class Login extends Component {
               console.log(user, token, refreshToken);
             } else {
               console.log('error to log user', errors);
+              const errorsArray = errors.reduce((a, b) => {
+                a[`${b.path}Error`] = b.message;
+                return a;
+              }, {});
+
+              console.log(errorsArray);
+
+
+              this.setState(errorsArray);
             }
           });
         })
         .catch((err) => {
           console.log('Error in login mutation', err);
-          this.setState({ loading: false });
+          this.setState({
+            loading: false,
+            extraError: 'An error has ocurred, try again',
+          });
         });
     });
     console.log(this.state);
   }
 
   render() {
-    const { loading, email, password } = this.state;
+    const {
+      loading,
+      email,
+      password,
+      passwordError,
+      emailError,
+      extraError,
+    } = this.state;
 
     return (
       <Container>
@@ -68,6 +96,7 @@ class Login extends Component {
             <Form
               onSubmit={this.onSubmit}
               loading={loading}
+              error={passwordError || emailError || extraError}
             >
               <Form.Input
                 label="Email"
@@ -85,6 +114,13 @@ class Login extends Component {
                 fluid
                 required
               />
+              {(emailError || passwordError || extraError) && (
+                <Message
+                  error
+                  header="Error to loggin"
+                  content={emailError || passwordError || extraError}
+                />
+              )}
               <Button type="submit">Login</Button>
             </Form>
           </Grid.Column>
