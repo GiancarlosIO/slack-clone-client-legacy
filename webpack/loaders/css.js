@@ -1,7 +1,7 @@
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
-  test: /.css$/,
+  test: /.(css|scss)$/,
   use: [
     require.resolve('style-loader'),
     {

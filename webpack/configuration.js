@@ -37,6 +37,7 @@ const alias = {
   'apollo-link': join(nodeModulesPath, 'apollo-link'),
   'apollo-link-error': join(nodeModulesPath, 'apollo-link-error'),
   'apollo-link-http': join(nodeModulesPath, 'apollo-link-http'),
+  Components: resolve(__dirname, '..', 'src/Components'),
 };
 
 const devServer = {

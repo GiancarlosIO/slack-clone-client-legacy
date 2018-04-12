@@ -16,10 +16,12 @@ const {
   alias,
 } = require('./configuration');
 
-const { vendor, ...rest } = entries;
+const newEntries = Object.assign({}, entries);
+
+delete newEntries.vendor;
 
 module.exports = {
-  entry: rest,
+  entry: newEntries,
   output: {
     path: path.resolve(__dirname, '..', 'server/public/dist'),
     publicPath: '/static/js/',

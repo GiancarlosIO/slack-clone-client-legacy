@@ -10,11 +10,18 @@ import {
   Message,
 } from 'semantic-ui-react';
 
+import FormTemplate from 'Components/form/FormTemplate';
+
 import loginMutation from './graphq/login.graphql';
+
+console.log(FormTemplate);
 
 class Login extends Component {
   static propTypes = {
     login: PropTypes.func.isRequired,
+    history: PropTypes.shape({
+      push: PropTypes.func.isRequired,
+    }).isRequired,
   }
 
   state = {
@@ -36,7 +43,7 @@ class Login extends Component {
       passwordError: null,
       extraError: null,
     };
-    const { login } = this.props;
+    const { login, history: { push } } = this.props;
     const { email, password } = this.state;
 
     this.setState({ loading: true, ...clearErrors }, () => {
@@ -52,6 +59,7 @@ class Login extends Component {
             if (ok) {
               window.localStorage.setItem('token', token);
               window.localStorage.setItem('refreshToken', refreshToken);
+              push('/');
               console.log(user, token, refreshToken);
             } else {
               console.log('error to log user', errors);
