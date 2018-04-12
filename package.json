@@ -45,7 +45,6 @@
     "semantic-ui-react": "^0.78.2",
     "style-loader": "^0.20.3",
     "styled-components": "^3.1.6",
-    "url-loader": "^1.0.1",
     "webpack": "^4.0.1",
     "webpack-dev-server": "^3.0.0"
   },
@@ -72,6 +71,7 @@
     "graphql-tag": "^2.8.0",
     "nodemon": "^1.15.1",
     "sass-loader": "^6.0.7",
+    "url-loader": "^1.0.1",
     "webpack-build-notifier": "^0.1.23",
     "webpack-bundle-analyzer": "^2.11.1",
     "webpack-cli": "^2.0.9",

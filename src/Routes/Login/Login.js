@@ -10,11 +10,13 @@ import {
   Message,
 } from 'semantic-ui-react';
 
-import FormTemplate from 'Components/form/FormTemplate';
+// import FormTemplate from 'Components/form/FormTemplate';
 
 import loginMutation from './graphq/login.graphql';
 
-console.log(FormTemplate);
+import LoginStyles from './Login.scss';
+
+console.log(LoginStyles);
 
 class Login extends Component {
   static propTypes = {

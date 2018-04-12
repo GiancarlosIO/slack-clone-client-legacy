@@ -7,13 +7,11 @@ module.exports = {
     {
       loader: 'css-loader',
       options: {
-        // importLoarders: 1,
-        // minimize: {
-        //   preset: 'default',
-        // },
+        minimize: {
+          preset: 'default',
+        },
         modules: true,
         localIdentName: '[name]__[local]__[hash:base64:5]',
-        url: false,
       },
     },
     {

@@ -18,7 +18,8 @@ import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 
 // css
-import 'semantic-ui-css/semantic.min.css';
+// we already are using the cdn
+// import 'semantic-ui-css/semantic.min.css';
 
 import App from './App';
 
