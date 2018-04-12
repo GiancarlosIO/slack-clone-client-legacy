@@ -1,12 +1,20 @@
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
-  test: /.(css|scss)$/,
+  test: /\.(css|scss)$/,
   use: [
     require.resolve('style-loader'),
     {
       loader: 'css-loader',
-      options: { importLoarders: 1 },
+      options: {
+        // importLoarders: 1,
+        // minimize: {
+        //   preset: 'default',
+        // },
+        modules: true,
+        localIdentName: '[name]__[local]__[hash:base64:5]',
+        url: false,
+      },
     },
     {
       loader: require.resolve('postcss-loader'),
@@ -26,5 +34,6 @@ module.exports = {
         ],
       },
     },
+    'sass-loader',
   ],
 };
