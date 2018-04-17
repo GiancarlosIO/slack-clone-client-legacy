@@ -11,6 +11,7 @@ import {
 
 const FormTemplate = ({
   header,
+  subHeader,
   fields,
   error,
   errorHeader,
@@ -20,6 +21,7 @@ const FormTemplate = ({
   onSubmit,
   loading,
   buttonLabel,
+  buttonProps,
   gridColumnWidth,
 }) => (
   <Container>
@@ -28,6 +30,11 @@ const FormTemplate = ({
         <Header as="h2">
           {header}
         </Header>
+        {subHeader ? (
+          <p>
+            {subHeader}
+          </p>
+        ) : null}
         <Form
           onSubmit={onSubmit}
           loading={loading}
@@ -47,7 +54,7 @@ const FormTemplate = ({
               list={errorList}
             />
           )}
-          <Button type="submit">
+          <Button type="submit" {...buttonProps}>
             {buttonLabel}
           </Button>
         </Form>
@@ -58,10 +65,13 @@ const FormTemplate = ({
 
 FormTemplate.defaultProps = {
   gridProps: {},
+  subHeader: null,
+  buttonProps: {},
 };
 
 FormTemplate.propTypes = {
   header: PropTypes.string.isRequired,
+  subHeader: PropTypes.string,
   fields: PropTypes.arrayOf(PropTypes.shape({
     label: PropTypes.string.isRequired,
     error: PropTypes.bool.isRequired,
@@ -79,6 +89,7 @@ FormTemplate.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   loading: PropTypes.bool.isRequired,
   buttonLabel: PropTypes.string.isRequired,
+  buttonProps: PropTypes.shape({}),
   gridColumnWidth: PropTypes.number.isRequired,
 };
 

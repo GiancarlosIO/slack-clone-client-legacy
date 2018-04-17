@@ -6,10 +6,6 @@ import FormTemplate from 'Components/form/FormTemplate';
 
 import loginMutation from './graphq/login.graphql';
 
-import LoginStyles from './Login.scss';
-
-console.log(LoginStyles);
-
 class Login extends Component {
   static propTypes = {
     login: PropTypes.func.isRequired,
@@ -93,7 +89,7 @@ class Login extends Component {
     return (
       <div>
         <FormTemplate
-          header="Login"
+          header="LoginPage"
           fields={[
             {
               label: 'email', type: 'email', value: email, onChange: this.onChange('email'), fluid: true, required: true,

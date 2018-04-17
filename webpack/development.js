@@ -43,7 +43,7 @@ const config = merge(sharedConfig, {
     // new WebpackAnalyzer(),
 
   ],
-  devtool: 'eval-source',
+  devtool: 'source-map',
 });
 
 module.exports = config;
