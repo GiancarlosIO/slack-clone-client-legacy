@@ -38,22 +38,37 @@ const httpLink = createHttpLink({
 const authLink = setContext((request, previusContenxt) => {
   // get the auth token from the local storage if it exists
   const token = localStorage.getItem('token');
+  const refreshToken = localStorage.getItem('refreshToken');
 
-  console.log('previusContenxt', previusContenxt);
-  console.log('request', request);
   // return the headers to the context so httplink can read them
   return {
     headers: {
-      ...request.headers,
-      authorization: token ? token : '', // eslint-disable-line no-unneeded-ternary
+      ...previusContenxt.headers,
+      'x-token': token || '',
+      'x-refresh-token': refreshToken || '',
     },
   };
 });
+
+// const authMiddleware = new ApolloLink((operation, forward) => {
+//   const token = localStorage.getItem('token');
+//   const refreshToken = localStorage.getItem('refreshToken');
+
+//   operation.setContext({
+//     headers: {
+//       'x-token': token || '',
+//       'x-refresh-token': refreshToken || '',
+//     },
+//   });
+
+//   return forward(operation);
+// });
 
 const client = new ApolloClient({
   link: ApolloLink.from([
     linkError,
     authLink,
+    // authMiddleware,
     httpLink,
   ]),
   cache: new InMemoryCache(),
