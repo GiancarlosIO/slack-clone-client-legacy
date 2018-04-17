@@ -1,16 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'react-apollo';
-import {
-  Container,
-  Header,
-  Button,
-  Form,
-  Grid,
-  Message,
-} from 'semantic-ui-react';
 
-// import FormTemplate from 'Components/form/FormTemplate';
+import FormTemplate from 'Components/form/FormTemplate';
 
 import loginMutation from './graphq/login.graphql';
 
@@ -99,43 +91,26 @@ class Login extends Component {
     } = this.state;
 
     return (
-      <Container>
-        <Grid padded centered>
-          <Grid.Column width={9}>
-            <Header as="h2">Login</Header>
-            <Form
-              onSubmit={this.onSubmit}
-              loading={loading}
-              error={passwordError || emailError || extraError}
-            >
-              <Form.Input
-                label="Email"
-                type="email"
-                value={email}
-                onChange={this.onChange('email')}
-                fluid
-                required
-              />
-              <Form.Input
-                label="Password"
-                type="password"
-                value={password}
-                onChange={this.onChange('password')}
-                fluid
-                required
-              />
-              {(emailError || passwordError || extraError) && (
-                <Message
-                  error
-                  header="Error to loggin"
-                  content={emailError || passwordError || extraError}
-                />
-              )}
-              <Button type="submit">Login</Button>
-            </Form>
-          </Grid.Column>
-        </Grid>
-      </Container>
+      <div>
+        <FormTemplate
+          header="Login"
+          fields={[
+            {
+              label: 'email', type: 'email', value: email, onChange: this.onChange('email'), fluid: true, required: true,
+            },
+            {
+              label: 'Password', type: 'password', value: password, onChange: this.onChange('password'), fluid: true, required: true,
+            },
+          ]}
+          error={passwordError || emailError || extraError}
+          errorHeader="Error to Login"
+          errorContent={emailError || passwordError || extraError}
+          onSubmit={this.onSubmit}
+          loading={loading}
+          buttonLabel="Login"
+          gridColumnWidth={9}
+        />
+      </div>
     );
   }
 }
