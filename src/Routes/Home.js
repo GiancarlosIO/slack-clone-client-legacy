@@ -3,12 +3,10 @@ import { graphql } from 'react-apollo';
 
 import usersQuery from '../graphql/queries/usersQuery.graphql';
 
-const Home = (props) => {
-  console.log(props);
+const Home = ({ data: { loading, users } }) => {
+  if (loading) return <p>Loading...</p>;
 
-  return (
-    <h2>Home</h2>
-  );
+  return users.map(u => <p key={u.id}>{u.email}</p>);
 };
 
 export default graphql(usersQuery)(Home);

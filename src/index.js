@@ -13,7 +13,7 @@ import { createHttpLink } from 'apollo-link-http';
 // display errors
 import { onError } from 'apollo-link-error';
 // set or get the context of apollo
-import { setContext } from 'apollo-link-context';
+// import { setContext } from 'apollo-link-context';
 // cache
 import { InMemoryCache } from 'apollo-cache-inmemory';
 
@@ -31,43 +31,62 @@ const linkError = onError(({ graphQLErrors, networkError }) => {
   if (networkError) console.log(`[Network Error]: ${networkError}`);
 });
 
+
+// const authLink = setContext((request, previusContenxt) => {
+//   // get the auth token from the local storage if it exists
+//   const token = localStorage.getItem('token');
+//   const refreshToken = localStorage.getItem('refreshToken');
+
+//   // return the headers to the context so httplink can read them
+//   return {
+//     headers: {
+//       ...previusContenxt.headers,
+//       'x-token': token || '',
+//       'x-refresh-token': refreshToken || '',
+//     },
+//   };
+// });
+
 const httpLink = createHttpLink({
   uri: 'http://localhost:4000/graphql/',
 });
 
-const authLink = setContext((request, previusContenxt) => {
-  // get the auth token from the local storage if it exists
-  const token = localStorage.getItem('token');
-  const refreshToken = localStorage.getItem('refreshToken');
-
-  // return the headers to the context so httplink can read them
-  return {
+const authMiddleware = new ApolloLink((operation, forward) => {
+  console.log('middleware authMiddleware', operation);
+  operation.setContext({
     headers: {
-      ...previusContenxt.headers,
-      'x-token': token || '',
-      'x-refresh-token': refreshToken || '',
+      'x-token': localStorage.getItem('token') || '',
+      'x-refresh-token': localStorage.getItem('refreshToken') || '',
     },
-  };
+  });
+
+  return forward(operation);
 });
 
-// const authMiddleware = new ApolloLink((operation, forward) => {
-//   const token = localStorage.getItem('token');
-//   const refreshToken = localStorage.getItem('refreshToken');
+const authAfterware = new ApolloLink((operation, forward) => {
+  console.log('authAfterware operation', operation.getContext());
 
-//   operation.setContext({
-//     headers: {
-//       'x-token': token || '',
-//       'x-refresh-token': refreshToken || '',
-//     },
-//   });
+  return forward(operation).map((response) => {
+    const { headers } = operation.getContext();
+    console.log('headres', headers);
 
-//   return forward(operation);
-// });
+    if (headers) {
+      const token = headers['x-token'];
+      const refreshToken = headers['x-refresh-token'];
+
+      if (token) localStorage.setItem('token', token);
+      if (refreshToken) localStorage.setItem('refreshToken', refreshToken);
+    }
+
+    return response;
+  });
+});
 
 const client = new ApolloClient({
   link: ApolloLink.from([
     linkError,
-    authLink,
+    authMiddleware,
+    authAfterware,
     // authMiddleware,
     httpLink,
   ]),
