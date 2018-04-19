@@ -16,6 +16,9 @@ import { onError } from 'apollo-link-error';
 // import { setContext } from 'apollo-link-context';
 // cache
 import { InMemoryCache } from 'apollo-cache-inmemory';
+// local state with apollo!!
+import { withClientState } from 'apollo-link-state';
+import { defaults, resolvers, typeDefs } from './LinkState/';
 
 // css
 // we already are using the cdn
@@ -30,7 +33,6 @@ const linkError = onError(({ graphQLErrors, networkError }) => {
 
   if (networkError) console.log(`[Network Error]: ${networkError}`);
 });
-
 
 // const authLink = setContext((request, previusContenxt) => {
 //   // get the auth token from the local storage if it exists
@@ -64,7 +66,7 @@ const authMiddleware = new ApolloLink((operation, forward) => {
 });
 
 const authAfterware = new ApolloLink((operation, forward) => {
-  console.log('authAfterware operation', operation.getContext());
+  console.log('operation context', operation.getContext());
 
   return forward(operation).map((response) => {
     const { headers } = operation.getContext();
@@ -82,15 +84,27 @@ const authAfterware = new ApolloLink((operation, forward) => {
   });
 });
 
+const cache = new InMemoryCache();
+
+console.log(defaults, resolvers, typeDefs);
+
+const stateLink = withClientState({
+  cache,
+  resolvers,
+  defaults,
+  typeDefs,
+});
+
 const client = new ApolloClient({
   link: ApolloLink.from([
     linkError,
+    stateLink,
     authMiddleware,
     authAfterware,
     // authMiddleware,
     httpLink,
   ]),
-  cache: new InMemoryCache(),
+  cache,
 });
 
 document.addEventListener('DOMContentLoaded', () => {

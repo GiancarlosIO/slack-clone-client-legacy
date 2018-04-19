@@ -1,0 +1,3 @@
+mutation LoginUser($id: Int!, $username: String!, $email: String!, $token: String!, $refreshToken: String!) {
+  loginUser(id: $id, username: $username, email: $email, token: $token, refreshToken: $refreshToken) @client
+}

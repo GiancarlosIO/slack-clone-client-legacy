@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'react-apollo';
+import { Redirect } from 'react-router-dom';
+import { graphql, Query } from 'react-apollo';
 
 import FormTemplate from 'Components/form/FormTemplate';
 
 import createTeamMutation from './graphql/createTeam.graphql';
+import USER_QUERY from './graphql/local/user.graphql';
 
 class CreateTeam extends Component {
   static propTypes = {
@@ -41,7 +43,9 @@ class CreateTeam extends Component {
           });
         }).catch((err) => {
           console.log('error to create team', err);
-          this.setState({ loading: false });
+          this.setState({ loading: false }, () => {
+            push('/login/');
+          });
         });
       });
     }
@@ -58,27 +62,38 @@ class CreateTeam extends Component {
     } = this.state;
 
     return (
-      <div>
-        <FormTemplate
-          header="What’s your company called?"
-          subHeader="We’ll use this to name your Slack workspace, which you can always change later."
-          fields={[
-            {
-              label: 'Company name', type: 'text', value: name, onChange: this.onChange, fluid: true, required: true,
-            },
-          ]}
-          error={nameError || extraError}
-          errorHeader="Error to create the team"
-          errorContent={nameError || extraError}
-          onSubmit={this.onSubmit}
-          loading={loading}
-          buttonLabel="Create workspace"
-          buttonProps={{
-            disabled: loading || nameError || !name,
-          }}
-          gridColumnWidth={12}
-        />
-      </div>
+      <Query query={USER_QUERY}>
+        {({ loading: loadingQuery, error, data }) => {
+          if (loadingQuery) return <h2>Loading</h2>;
+          if (error) return <h2>Error</h2>;
+
+          if (!data.user) return <Redirect to="/login" />;
+
+          return (
+            <div>
+              <FormTemplate
+                header="What’s your company called?"
+                subHeader="We’ll use this to name your Slack workspace, which you can always change later."
+                fields={[
+                  {
+                    label: 'Company name', type: 'text', value: name, onChange: this.onChange, fluid: true, required: true,
+                  },
+                ]}
+                error={nameError || extraError}
+                errorHeader="Error to create the team"
+                errorContent={nameError || extraError}
+                onSubmit={this.onSubmit}
+                loading={loading}
+                buttonLabel="Create workspace"
+                buttonProps={{
+                  disabled: loading || nameError || !name,
+                }}
+                gridColumnWidth={12}
+              />
+            </div>
+          );
+        }}
+      </Query>
     );
   }
 }

@@ -22,6 +22,7 @@
     "apollo-link-context": "^1.0.7",
     "apollo-link-error": "^1.0.7",
     "apollo-link-http": "^1.5.3",
+    "apollo-link-state": "^0.4.1",
     "autoprefixer": "^8.1.0",
     "babel-eslint": "^8.2.2",
     "babel-plugin-transform-async-to-generator": "^6.24.1",

@@ -12,6 +12,8 @@ module.exports = {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-console": 0,
     "no-param-reassign": 0,
+    "object-curly-newline": 0,
+    "jsx-a11y/anchor-is-valid": 0,
   },
   "env": {
     "browser": true,

@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'react-apollo';
+import { graphql, compose } from 'react-apollo';
 
 import FormTemplate from 'Components/form/FormTemplate';
 
 import loginMutation from './graphq/login.graphql';
+import loginUserLocal from './graphq/local/loginUser.graphql';
 
 class Login extends Component {
   static propTypes = {
     login: PropTypes.func.isRequired,
+    loginUserLocal: PropTypes.func.isRequired,
     history: PropTypes.shape({
       push: PropTypes.func.isRequired,
     }).isRequired,
@@ -33,7 +35,7 @@ class Login extends Component {
       passwordError: null,
       extraError: null,
     };
-    const { login, history: { push } } = this.props;
+    const { login, loginUserLocal: loginLocal, history: { push } } = this.props;
     const { email, password } = this.state;
 
     this.setState({ loading: true, ...clearErrors }, () => {
@@ -49,8 +51,12 @@ class Login extends Component {
             if (ok) {
               window.localStorage.setItem('token', token);
               window.localStorage.setItem('refreshToken', refreshToken);
-              push('/');
+              // set the user to the local apollo-state
+              loginLocal({
+                variables: { ...user, token, refreshToken },
+              });
               console.log(user, token, refreshToken);
+              push('/');
             } else {
               console.log('error to log user', errors);
               const errorsArray = errors.reduce((a, b) => {
@@ -111,4 +117,7 @@ class Login extends Component {
   }
 }
 
-export default graphql(loginMutation, { name: 'login' })(Login);
+export default compose(
+  graphql(loginMutation, { name: 'login' }),
+  graphql(loginUserLocal, { name: 'loginUserLocal' }),
+)(Login);
