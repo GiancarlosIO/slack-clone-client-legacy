@@ -3,5 +3,7 @@ query User {
     id
     username
     email
+    token
+    refreshToken
   }
 }

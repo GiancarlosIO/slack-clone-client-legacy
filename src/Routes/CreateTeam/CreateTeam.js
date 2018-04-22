@@ -59,6 +59,8 @@ class CreateTeam extends Component {
       extraError,
     } = this.state;
 
+    console.log(this.props);
+
     return (
       <div>
         <FormTemplate

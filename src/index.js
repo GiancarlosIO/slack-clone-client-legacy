@@ -55,10 +55,12 @@ const httpLink = createHttpLink({
 
 const authMiddleware = new ApolloLink((operation, forward) => {
   console.log('middleware authMiddleware', operation);
+  const user = localStorage.getItem('user');
+
   operation.setContext({
     headers: {
-      'x-token': localStorage.getItem('token') || '',
-      'x-refresh-token': localStorage.getItem('refreshToken') || '',
+      'x-token': user ? JSON.parse(user).token : '',
+      'x-refresh-token': user ? JSON.parse(user).refreshToken : '',
     },
   });
 
@@ -70,14 +72,20 @@ const authAfterware = new ApolloLink((operation, forward) => {
 
   return forward(operation).map((response) => {
     const { headers } = operation.getContext();
+    const user = localStorage.getItem('user');
+
     console.log('headres', headers);
 
-    if (headers) {
+    if (headers && user) {
+      const newUser = { ...JSON.parse(user) };
       const token = headers['x-token'];
       const refreshToken = headers['x-refresh-token'];
 
-      if (token) localStorage.setItem('token', token);
-      if (refreshToken) localStorage.setItem('refreshToken', refreshToken);
+      if (token) newUser.token = token;
+
+      if (refreshToken) newUser.refreshToken = refreshToken;
+
+      localStorage.setItem('user', JSON.stringify(newUser));
     }
 
     return response;

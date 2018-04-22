@@ -49,8 +49,13 @@ class Login extends Component {
         }) => {
           this.setState({ loading: false }, () => {
             if (ok) {
-              window.localStorage.setItem('token', token);
-              window.localStorage.setItem('refreshToken', refreshToken);
+              const currentUser = JSON.stringify({
+                ...user,
+                token,
+                refreshToken,
+              });
+
+              window.localStorage.setItem('user', currentUser);
               // set the user to the local apollo-state
               loginLocal({
                 variables: { ...user, token, refreshToken },
@@ -58,6 +63,7 @@ class Login extends Component {
               console.log(user, token, refreshToken);
               push('/');
             } else {
+              localStorage.removeItem('user');
               console.log('error to log user', errors);
               const errorsArray = errors.reduce((a, b) => {
                 a[`${b.path}Error`] = b.message;
@@ -66,13 +72,13 @@ class Login extends Component {
 
               console.log(errorsArray);
 
-
               this.setState(errorsArray);
             }
           });
         })
         .catch((err) => {
           console.log('Error in login mutation', err);
+          localStorage.removeItem('user');
           this.setState({
             loading: false,
             extraError: 'An error has ocurred, try again',

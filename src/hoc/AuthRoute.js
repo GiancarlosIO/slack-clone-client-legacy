@@ -12,7 +12,7 @@ const AuthRoute = WrapperComponent => props => (
       if (!data.user) return <Redirect to="/login" />;
 
       return (
-        <WrapperComponent {...props} />
+        <WrapperComponent {...props} user={data.user} />
       );
     }}
   </Query>
