@@ -8,7 +8,8 @@
     "start": "npm run server & npm run client:start",
     "server": "nodemon --ignore src/ --exec npx babel-node ./server/index.js ",
     "client:start": "npx webpack-dev-server --colors --inline --progress --config webpack/development.js",
-    "dll:build": "webpack --progress --config webpack/dll.js",
+    "dll": "NODE_ENV=development webpack --progress --config webpack/dll.js --mode=development",
+    "dll:build": "NODE_ENV=production webpack --progress --config webpack/dll.js --mode=production",
     "client:build": "npx webpack --progress --config webpack/production.js",
     "lint": "eslint src/**"
   },

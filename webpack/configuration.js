@@ -18,7 +18,6 @@ const entries = {
     'styled-components',
     'react-router-dom',
     'semantic-ui-react',
-    'semantic-ui-css',
   ],
   app: getPath('index.js'),
 };
