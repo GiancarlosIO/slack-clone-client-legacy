@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'react-apollo';
-import {
-  Container,
-  Header,
-  Button,
-  Message,
-  Grid,
-  Form,
-} from 'semantic-ui-react';
+
+import FormTemplate from 'Components/form/FormTemplate';
 
 // murations
 import registerMutation from './graphql/mutations/registerMutation.graphql';
@@ -72,58 +66,47 @@ class Registration extends Component {
     const errorList = Object.keys(errors).map(err => errors[err]);
 
     return (
-      <Container>
-        <Grid padded centered>
-          <Grid.Column width={9}>
-            <Form
-              onSubmit={this.onSubmit}
-              error={errorList.length > 0}
-              loading={loading}
-            >
-              <Header as="h2">Register</Header>
-              <Form.Input
-                label="Username"
-                error={!!errors.username}
-                onChange={this.onChange('username')}
-                placeholder="username"
-                value={username}
-                disabled={loading}
-                fluid
-              />
-              <Form.Input
-                label="Email"
-                error={!!errors.email}
-                onChange={this.onChange('email')}
-                placeholder="email"
-                value={email}
-                disabled={loading}
-                fluid
-              />
-              <Form.Input
-                label="Password"
-                error={!!errors.password}
-                onChange={this.onChange('password')}
-                type="password"
-                placeholder="password"
-                value={password}
-                disabled={loading}
-                fluid
-              />
-              <Button
-                primary
-                type="submit"
-              >
-                Submit
-              </Button>
-              <Message
-                error
-                header="Check the errors:"
-                list={errorList}
-              />
-            </Form>
-          </Grid.Column>
-        </Grid>
-      </Container>
+      <div>
+        <FormTemplate
+          header="Registration"
+          fields={[
+            {
+              label: 'Username',
+              error: !!errors.username,
+              onChange: this.onChange('username'),
+              placeholder: 'username',
+              value: username,
+              disabled: loading,
+              fluid: true,
+            },
+            {
+              label: 'Email',
+              error: !!errors.email,
+              onChange: this.onChange('email'),
+              placeholder: 'email',
+              value: email,
+              disabled: loading,
+              fluid: true,
+            },
+            {
+              label: 'Password',
+              type: 'password',
+              error: !!errors.password,
+              onChange: this.onChange('password'),
+              placeholder: 'Password',
+              value: password,
+              disabled: loading,
+              fluid: true,
+            },
+          ]}
+          error={errorList.length > 0}
+          errorHeader="Check the errors"
+          onSubmit={this.onSubmit}
+          loading={loading}
+          buttonLabel="Registration"
+          gridColumnWidth={9}
+        />
+      </div>
     );
   }
 }

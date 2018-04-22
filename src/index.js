@@ -86,8 +86,6 @@ const authAfterware = new ApolloLink((operation, forward) => {
 
 const cache = new InMemoryCache();
 
-console.log(defaults, resolvers, typeDefs);
-
 const stateLink = withClientState({
   cache,
   resolvers,

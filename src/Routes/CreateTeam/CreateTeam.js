@@ -66,10 +66,18 @@ class CreateTeam extends Component {
           subHeader="We’ll use this to name your Slack workspace, which you can always change later."
           fields={[
             {
-              label: 'Company name', type: 'text', value: name, onChange: this.onChange, fluid: true, required: true,
+              label: 'Company name',
+              type: 'text',
+              value: name,
+              placeholder: 'Company name',
+              onChange: this.onChange,
+              disabled: loading,
+              fluid: true,
+              required: true,
+              error: !!nameError,
             },
           ]}
-          error={nameError || extraError}
+          error={!!(nameError || extraError)}
           errorHeader="Error to create the team"
           errorContent={nameError || extraError}
           onSubmit={this.onSubmit}

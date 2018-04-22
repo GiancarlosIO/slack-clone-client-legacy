@@ -25,7 +25,7 @@ const FormTemplate = ({
   gridColumnWidth,
 }) => (
   <Container>
-    <Grid padding centered {...gridProps}>
+    <Grid padded centered {...gridProps}>
       <Grid.Column width={gridColumnWidth}>
         <Header as="h2">
           {header}
@@ -67,6 +67,8 @@ FormTemplate.defaultProps = {
   gridProps: {},
   subHeader: null,
   buttonProps: {},
+  errorList: [],
+  errorContent: null,
 };
 
 FormTemplate.propTypes = {
@@ -78,13 +80,13 @@ FormTemplate.propTypes = {
     onChange: PropTypes.func.isRequired,
     placeholder: PropTypes.string.isRequired,
     value: PropTypes.string.isRequired,
-    disable: PropTypes.string.isRequired,
+    disabled: PropTypes.bool.isRequired,
     fluid: PropTypes.bool.isRequired,
   }).isRequired).isRequired,
   error: PropTypes.bool.isRequired,
   errorHeader: PropTypes.string.isRequired,
-  errorContent: PropTypes.string.isRequired,
-  errorList: PropTypes.arrayOf(PropTypes.string).isRequired,
+  errorContent: PropTypes.string,
+  errorList: PropTypes.arrayOf(PropTypes.string),
   gridProps: PropTypes.shape({}),
   onSubmit: PropTypes.func.isRequired,
   loading: PropTypes.bool.isRequired,

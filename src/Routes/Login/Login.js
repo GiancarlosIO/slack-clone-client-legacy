@@ -98,13 +98,29 @@ class Login extends Component {
           header="LoginPage"
           fields={[
             {
-              label: 'email', type: 'email', value: email, onChange: this.onChange('email'), fluid: true, required: true,
+              label: 'email',
+              type: 'email',
+              value: email,
+              placeholder: 'email',
+              onChange: this.onChange('email'),
+              error: !!emailError,
+              disabled: loading,
+              fluid: true,
+              required: true,
             },
             {
-              label: 'Password', type: 'password', value: password, onChange: this.onChange('password'), fluid: true, required: true,
+              label: 'Password',
+              type: 'password',
+              value: password,
+              placeholder: 'password',
+              onChange: this.onChange('password'),
+              error: !!passwordError,
+              disabled: loading,
+              fluid: true,
+              required: true,
             },
           ]}
-          error={passwordError || emailError || extraError}
+          error={!!(passwordError || emailError || extraError)}
           errorHeader="Error to Login"
           errorContent={emailError || passwordError || extraError}
           onSubmit={this.onSubmit}
