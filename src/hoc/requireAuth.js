@@ -4,7 +4,7 @@ import { Redirect } from 'react-router-dom';
 
 import USER_QUERY from '../graphql/local/user.graphql';
 
-const AuthRoute = WrapperComponent => props => (
+const requireAuth = WrapperComponent => props => (
   <Query query={USER_QUERY} >
     {({ loading, error, data }) => {
       if (loading) return <h2>loading...</h2>;
@@ -18,4 +18,4 @@ const AuthRoute = WrapperComponent => props => (
   </Query>
 );
 
-export default AuthRoute;
+export default requireAuth;
