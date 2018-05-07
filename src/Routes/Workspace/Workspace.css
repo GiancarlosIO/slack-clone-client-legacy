@@ -1,0 +1,40 @@
+.maxContainer {
+  max-width: 100vw;
+  min-width: 100vw;
+  max-height: 100vh;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 220px auto;
+  grid-template-rows: 100vh;
+  grid-template-areas:
+    'sidebar body'
+}
+
+.sidebar, .body {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 61px auto;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #4d394b;
+  color: #fff;
+}
+
+.body {
+  grid-area: body;
+}
+
+.sidebarHeader, .bodyHeader {
+  width: 100%;
+}
+
+.bodyHeader {
+  box-shadow: inset 1px 0 0 0 #e8e8e8, 0 1px 0 rgba(0,0,0,.1);
+}
+
+.sidebarContent, .bodyContent {
+  overflow-y: auto;
+}

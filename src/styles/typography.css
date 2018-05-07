@@ -1,0 +1,15 @@
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.channel-type {
+  will-change: color;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: rgb(202, 196, 201);
+}
+
+.channel-type:hover {
+  color: #fff;
+}

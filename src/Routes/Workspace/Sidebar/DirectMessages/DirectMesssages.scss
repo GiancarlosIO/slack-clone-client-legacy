@@ -1,0 +1,18 @@
+.container {
+  padding: 16px 0;
+}
+
+.title {
+  composes: channel-type from '../../../../styles/typography.css';
+  font-size: 16px;
+  padding: 0 16px;
+}
+
+.userWrapper {
+  composes: sidebarLinkContainer from '../common.scss';
+}
+
+.username {
+  composes: sidebarItemName from '../common.scss';
+}
+

@@ -14,6 +14,9 @@ import Login from './Login/';
 // Team
 import CreateTeam from './CreateTeam/';
 
+// Workspace
+import Workspace from './Workspace';
+
 const Routes = () => (
   <BrowserRouter>
     <Switch>
@@ -21,6 +24,7 @@ const Routes = () => (
       <Route exact path="/registration" component={hideAuth(Registration)} />
       <Route exact path="/login" component={hideAuth(Login)} />
       <Route exact path="/create-team" component={requireAuth(CreateTeam)} />
+      <Route exact path="/messages" component={Workspace} />
       <Route component={() => <h2>Not found</h2>} />
     </Switch>
   </BrowserRouter>

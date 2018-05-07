@@ -1,0 +1,22 @@
+.container {
+  display: block;
+  height: 100%;
+  padding: 12px 16px 8px 16px;
+  border: 1px solid #4d394b;
+  will-change: border, background-color;
+  transition: background-color 0.3s, border 0.3s;
+
+  &:hover {
+    background-color: #3e313c;
+    border-bottom-color: #3e313c;
+  }
+}
+
+.logo {
+  composes: logo from '../../../../styles/typography.css';
+}
+
+.username {
+  margin-top: 4px;
+  font-size: 14px;
+}

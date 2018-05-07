@@ -1,0 +1,24 @@
+.sidebarLinkContainer {
+  padding: 0 16px;
+  cursor: pointer;
+  will-change: background-color;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: #3e313c;
+  }
+
+  &:global(.selected) {
+    background-color: #4C9689;
+    & > a { color: #fff; }
+  }
+}
+
+.sidebarItemName {
+  composes: channel-type from '../../../styles/typography.css';
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}

@@ -3,8 +3,10 @@ import { hot } from 'react-hot-loader';
 
 import Routes from './Routes/';
 
+import global from './styles/global.css';
+
 const App = () => (
-  <div>
+  <div className={global.container}>
     <Routes />
   </div>
 );

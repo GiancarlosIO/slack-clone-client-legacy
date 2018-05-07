@@ -4,7 +4,7 @@ const { resolve } = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const WebpackBuildNotifier = require('webpack-build-notifier');
-const WebpackAnalyzer = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const WebpackAnalyzer = require('webpack-bundle-analyzer').BundleAnalyzerPlugin; // eslint-disable-line
 
 const sharedConfig = require('./shared');
 
