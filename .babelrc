@@ -4,11 +4,34 @@
     "env",
     "stage-3"
   ],
+  "env": {
+    "server": {
+      "plugins": [
+        "inline-json-import",
+        "dynamic-import-node",
+        ["css-modules-transform", {
+          "preprocessCss": "./webpack/server/sass-loader.js",
+          "generateScopedName": "[name]__[local]__[hash:base64:5]",
+          "extensions": [".css", ".scss"]
+        }],
+        "babel-plugin-inline-import-graphql-ast",
+        ["module-resolver", {
+          "root": ["./src"],
+          "extensions": [".js", ".graphql", ".gql"],
+          "alias": {
+            "Components": "./src/Components/"
+          }
+        }]
+      ]
+    }
+  },
   "plugins": [
+    "react-loadable/babel",
     "react-hot-loader/babel",
     "transform-regenerator",
     "transform-decorators-legacy",
     "transform-class-properties",
-    "transform-async-to-generator"
+    "transform-async-to-generator",
+    "syntax-dynamic-import"
   ]
 }

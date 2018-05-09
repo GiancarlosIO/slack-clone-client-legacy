@@ -1,9 +1,13 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const autoprefixer = require('autoprefixer');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   test: /\.(css|scss)$/,
   use: [
-    require.resolve('style-loader'),
+    devMode ? require.resolve('style-loader') : MiniCssExtractPlugin.loader,
     {
       loader: 'css-loader',
       options: {

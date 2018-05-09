@@ -1,0 +1,40 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible', content='ie=edge')
+  link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css')
+  link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
+  style.
+    ::-webkit-scrollbar{-webkit-border-radius:5px;background-color:transparent;border-radius:5px;height:10px;transition:background-color .2s linear;width:6px}::-webkit-scrollbar:hover{background-color:rgba(0,0,0,.09);transition:background-color .2s linear}::-webkit-scrollbar-thumb{-webkit-border-radius:5px;background:#aaa;background-clip:padding-box;border:2px solid transparent;border-radius:5px;transition:background-color .2s linear}::-webkit-scrollbar-thumb:active{-webkit-border-radius:5px;background:rgba(0,0,0,.4);background-clip:padding-box;border:1px solid transparent;border-radius:5px}::-webkit-scrollbar-thumb:vertical{min-height:10px}::-webkit-scrollbar-thumb:horizontal{min-width:10px}
+  style.
+    .lds-dual-ring {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    }
+    .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+    }
+    @keyframes lds-dual-ring {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+    }
+  title Slack Clone
+body
+  h2 #{test}
+  #app
+  script(src='../dist/vendor.dll.js')
+  script(src='http://localhost:5000/static/js/app.min.js')

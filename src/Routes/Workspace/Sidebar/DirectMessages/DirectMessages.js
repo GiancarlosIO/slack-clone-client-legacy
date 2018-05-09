@@ -9,7 +9,7 @@ const DirectMessages = ({ directMessages }) => (
     <h2 className={styles.title}>Direct Messages</h2>
     <div className={styles.users}>
       {directMessages.map(user => (
-        <div className={styles.userWrapper}>
+        <div key={user.id} className={styles.userWrapper}>
           <a
             href={`/${user.username}`}
             className={styles.username}

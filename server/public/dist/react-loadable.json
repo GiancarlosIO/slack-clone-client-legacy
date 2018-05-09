@@ -1,0 +1,2986 @@
+{
+  "!!../../../../../node_modules/css-loader/index.js??ref--8-1!../../../../../node_modules/postcss-loader/lib/index.js??postcss!../../../../../node_modules/sass-loader/lib/loader.js!./Channels.scss": [
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/Channels/Channels.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/Channels/Channels.scss",
+      "file": "Channels.chunk.js",
+      "publicPath": "http://localhost:5000/static/Channels.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/Channels/Channels.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/Channels/Channels.scss",
+      "file": "Channels.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/Channels.chunk.js.map"
+    }
+  ],
+  "-!../../../../../node_modules/css-loader/index.js??ref--8-1!../common.scss": [
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./src/Routes/Workspace/Sidebar/common.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./src/Routes/Workspace/Sidebar/common.scss",
+      "file": "Channels.chunk.js",
+      "publicPath": "http://localhost:5000/static/Channels.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./src/Routes/Workspace/Sidebar/common.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./src/Routes/Workspace/Sidebar/common.scss",
+      "file": "Channels.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/Channels.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./src/Routes/Workspace/Sidebar/common.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./src/Routes/Workspace/Sidebar/common.scss",
+      "file": "DirectMessages.chunk.js",
+      "publicPath": "http://localhost:5000/static/DirectMessages.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./src/Routes/Workspace/Sidebar/common.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./src/Routes/Workspace/Sidebar/common.scss",
+      "file": "DirectMessages.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/DirectMessages.chunk.js.map"
+    }
+  ],
+  "./Channels": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/Channels/Channels.js",
+      "name": "./src/Routes/Workspace/Sidebar/Channels/Channels.js",
+      "file": "Channels.chunk.js",
+      "publicPath": "http://localhost:5000/static/Channels.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/Channels/Channels.js",
+      "name": "./src/Routes/Workspace/Sidebar/Channels/Channels.js",
+      "file": "Channels.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/Channels.chunk.js.map"
+    }
+  ],
+  "./Channels.scss": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/Channels/Channels.scss",
+      "name": "./src/Routes/Workspace/Sidebar/Channels/Channels.scss",
+      "file": "Channels.chunk.js",
+      "publicPath": "http://localhost:5000/static/Channels.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/Channels/Channels.scss",
+      "name": "./src/Routes/Workspace/Sidebar/Channels/Channels.scss",
+      "file": "Channels.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/Channels.chunk.js.map"
+    }
+  ],
+  "!!../../../../../node_modules/css-loader/index.js??ref--8-1!../../../../../node_modules/postcss-loader/lib/index.js??postcss!../../../../../node_modules/sass-loader/lib/loader.js!./DirectMesssages.scss": [
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/DirectMessages/DirectMesssages.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/DirectMessages/DirectMesssages.scss",
+      "file": "DirectMessages.chunk.js",
+      "publicPath": "http://localhost:5000/static/DirectMessages.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/DirectMessages/DirectMesssages.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/DirectMessages/DirectMesssages.scss",
+      "file": "DirectMessages.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/DirectMessages.chunk.js.map"
+    }
+  ],
+  "./DirectMessages": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/DirectMessages/DirectMessages.js",
+      "name": "./src/Routes/Workspace/Sidebar/DirectMessages/DirectMessages.js",
+      "file": "DirectMessages.chunk.js",
+      "publicPath": "http://localhost:5000/static/DirectMessages.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/DirectMessages/DirectMessages.js",
+      "name": "./src/Routes/Workspace/Sidebar/DirectMessages/DirectMessages.js",
+      "file": "DirectMessages.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/DirectMessages.chunk.js.map"
+    }
+  ],
+  "./DirectMesssages.scss": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/DirectMessages/DirectMesssages.scss",
+      "name": "./src/Routes/Workspace/Sidebar/DirectMessages/DirectMesssages.scss",
+      "file": "DirectMessages.chunk.js",
+      "publicPath": "http://localhost:5000/static/DirectMessages.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/DirectMessages/DirectMesssages.scss",
+      "name": "./src/Routes/Workspace/Sidebar/DirectMessages/DirectMesssages.scss",
+      "file": "DirectMessages.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/DirectMessages.chunk.js.map"
+    }
+  ],
+  "./CreateTeam": [
+    {
+      "id": "./src/Routes/CreateTeam/CreateTeam.js",
+      "name": "./src/Routes/CreateTeam/CreateTeam.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/CreateTeam.js",
+      "name": "./src/Routes/CreateTeam/CreateTeam.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/CreateTeam.js",
+      "name": "./src/Routes/CreateTeam/CreateTeam.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/CreateTeam.js",
+      "name": "./src/Routes/CreateTeam/CreateTeam.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 0,
+      "name": null,
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/module.js",
+      "name": "./node_modules/webpack/buildin/module.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/babel-polyfill/lib/index.js",
+      "name": "./node_modules/babel-polyfill/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/index.js",
+      "name": "./node_modules/react-router-dom/es/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-link/lib/index.js",
+      "name": "./node_modules/apollo-link/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "name": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-client/index.js",
+      "name": "./node_modules/apollo-client/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-http/lib/index.js",
+      "name": "./node_modules/apollo-link-http/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-error/lib/index.js",
+      "name": "./node_modules/apollo-link-error/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/hoist-non-react-statics/index.js",
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "dll-reference vendor_f6223ae554ff4bf637d2",
+      "name": "dll-reference vendor_f6223ae554ff4bf637d2",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/semantic-ui-react/dist/es/index.js",
+      "name": "./node_modules/semantic-ui-react/dist/es/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/index.js",
+      "name": "./node_modules/apollo-utilities/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": 0,
+      "name": null,
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/module.js",
+      "name": "./node_modules/webpack/buildin/module.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/babel-polyfill/lib/index.js",
+      "name": "./node_modules/babel-polyfill/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/index.js",
+      "name": "./node_modules/react-router-dom/es/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-link/lib/index.js",
+      "name": "./node_modules/apollo-link/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "name": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-client/index.js",
+      "name": "./node_modules/apollo-client/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-http/lib/index.js",
+      "name": "./node_modules/apollo-link-http/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-error/lib/index.js",
+      "name": "./node_modules/apollo-link-error/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/hoist-non-react-statics/index.js",
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "dll-reference vendor_f6223ae554ff4bf637d2",
+      "name": "dll-reference vendor_f6223ae554ff4bf637d2",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/semantic-ui-react/dist/es/index.js",
+      "name": "./node_modules/semantic-ui-react/dist/es/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/index.js",
+      "name": "./node_modules/apollo-utilities/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": 0,
+      "name": null,
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/module.js",
+      "name": "./node_modules/webpack/buildin/module.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/babel-polyfill/lib/index.js",
+      "name": "./node_modules/babel-polyfill/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/index.js",
+      "name": "./node_modules/react-router-dom/es/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-link/lib/index.js",
+      "name": "./node_modules/apollo-link/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "name": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-client/index.js",
+      "name": "./node_modules/apollo-client/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-link-http/lib/index.js",
+      "name": "./node_modules/apollo-link-http/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-link-error/lib/index.js",
+      "name": "./node_modules/apollo-link-error/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/hoist-non-react-statics/index.js",
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "dll-reference vendor_f6223ae554ff4bf637d2",
+      "name": "dll-reference vendor_f6223ae554ff4bf637d2",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/semantic-ui-react/dist/es/index.js",
+      "name": "./node_modules/semantic-ui-react/dist/es/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/index.js",
+      "name": "./node_modules/apollo-utilities/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": 0,
+      "name": null,
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/module.js",
+      "name": "./node_modules/webpack/buildin/module.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/babel-polyfill/lib/index.js",
+      "name": "./node_modules/babel-polyfill/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/index.js",
+      "name": "./node_modules/react-router-dom/es/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-link/lib/index.js",
+      "name": "./node_modules/apollo-link/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "name": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-client/index.js",
+      "name": "./node_modules/apollo-client/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-link-http/lib/index.js",
+      "name": "./node_modules/apollo-link-http/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-link-error/lib/index.js",
+      "name": "./node_modules/apollo-link-error/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/hoist-non-react-statics/index.js",
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "dll-reference vendor_f6223ae554ff4bf637d2",
+      "name": "dll-reference vendor_f6223ae554ff4bf637d2",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/semantic-ui-react/dist/es/index.js",
+      "name": "./node_modules/semantic-ui-react/dist/es/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/index.js",
+      "name": "./node_modules/apollo-utilities/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "webpack/hot/dev-server": [
+    {
+      "id": "./node_modules/webpack/hot/dev-server.js",
+      "name": "./node_modules/webpack/hot/dev-server.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot/dev-server.js",
+      "name": "./node_modules/webpack/hot/dev-server.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot/dev-server.js",
+      "name": "./node_modules/webpack/hot/dev-server.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/hot/dev-server.js",
+      "name": "./node_modules/webpack/hot/dev-server.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "/home/giancarlos/Documents/trainingJavascript/Node/yt/slack-clone/slack-clone-client/src/index.js": [
+    {
+      "id": "./src/index.js",
+      "name": "./src/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/index.js",
+      "name": "./src/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/index.js",
+      "name": "./src/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/index.js",
+      "name": "./src/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "apollo-cache-inmemory": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "apollo-link-state": [
+    {
+      "id": "./node_modules/apollo-link-state/lib/index.js",
+      "name": "./node_modules/apollo-link-state/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-state/lib/index.js",
+      "name": "./node_modules/apollo-link-state/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-state/lib/index.js",
+      "name": "./node_modules/apollo-link-state/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-link-state/lib/index.js",
+      "name": "./node_modules/apollo-link-state/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./LinkState/": [
+    {
+      "id": "./src/LinkState/index.js",
+      "name": "./src/LinkState/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/LinkState/index.js",
+      "name": "./src/LinkState/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/LinkState/index.js",
+      "name": "./src/LinkState/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/LinkState/index.js",
+      "name": "./src/LinkState/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./App": [
+    {
+      "id": "./src/App.js",
+      "name": "./src/App.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/App.js",
+      "name": "./src/App.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/App.js",
+      "name": "./src/App.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/App.js",
+      "name": "./src/App.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "react-hot-loader": [
+    {
+      "id": "./node_modules/react-hot-loader/index.js",
+      "name": "./node_modules/react-hot-loader/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/index.js",
+      "name": "./node_modules/react-hot-loader/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/index.js",
+      "name": "./node_modules/react-hot-loader/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/index.js",
+      "name": "./node_modules/react-hot-loader/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./dist/react-hot-loader.production.min.js": [
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./dist/react-hot-loader.development.js": [
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "shallowequal": [
+    {
+      "id": "./node_modules/shallowequal/index.js",
+      "name": "./node_modules/shallowequal/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/shallowequal/index.js",
+      "name": "./node_modules/shallowequal/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/shallowequal/index.js",
+      "name": "./node_modules/shallowequal/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/shallowequal/index.js",
+      "name": "./node_modules/shallowequal/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "fast-levenshtein": [
+    {
+      "id": "./node_modules/fast-levenshtein/levenshtein.js",
+      "name": "./node_modules/fast-levenshtein/levenshtein.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/fast-levenshtein/levenshtein.js",
+      "name": "./node_modules/fast-levenshtein/levenshtein.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/fast-levenshtein/levenshtein.js",
+      "name": "./node_modules/fast-levenshtein/levenshtein.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/fast-levenshtein/levenshtein.js",
+      "name": "./node_modules/fast-levenshtein/levenshtein.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "react-lifecycles-compat": [
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "!!webpack amd define": [
+    {
+      "id": "./node_modules/webpack/buildin/amd-define.js",
+      "name": "./node_modules/webpack/buildin/amd-define.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/amd-define.js",
+      "name": "./node_modules/webpack/buildin/amd-define.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/amd-define.js",
+      "name": "./node_modules/webpack/buildin/amd-define.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/amd-define.js",
+      "name": "./node_modules/webpack/buildin/amd-define.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "!!webpack amd options": [
+    {
+      "id": "./node_modules/webpack/buildin/amd-options.js",
+      "name": "./node_modules/webpack/buildin/amd-options.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/amd-options.js",
+      "name": "./node_modules/webpack/buildin/amd-options.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/amd-options.js",
+      "name": "./node_modules/webpack/buildin/amd-options.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/amd-options.js",
+      "name": "./node_modules/webpack/buildin/amd-options.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Routes/": [
+    {
+      "id": "./src/Routes/index.js",
+      "name": "./src/Routes/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/index.js",
+      "name": "./src/Routes/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/index.js",
+      "name": "./src/Routes/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/index.js",
+      "name": "./src/Routes/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./styles/global.css": [
+    {
+      "id": "./src/styles/global.css",
+      "name": "./src/styles/global.css",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/styles/global.css",
+      "name": "./src/styles/global.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/styles/global.css",
+      "name": "./src/styles/global.css",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/styles/global.css",
+      "name": "./src/styles/global.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "!!../../node_modules/css-loader/index.js??ref--8-1!../../node_modules/postcss-loader/lib/index.js??postcss!../../node_modules/sass-loader/lib/loader.js!./global.css": [
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/styles/global.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/styles/global.css",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/styles/global.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/styles/global.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/styles/global.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/styles/global.css",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/styles/global.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/styles/global.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "!../../node_modules/style-loader/lib/addStyles.js": [
+    {
+      "id": "./node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./urls": [
+    {
+      "id": "./node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "../../node_modules/css-loader/lib/css-base.js": [
+    {
+      "id": "./node_modules/css-loader/lib/css-base.js",
+      "name": "./node_modules/css-loader/lib/css-base.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/lib/css-base.js",
+      "name": "./node_modules/css-loader/lib/css-base.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/css-loader/lib/css-base.js",
+      "name": "./node_modules/css-loader/lib/css-base.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/lib/css-base.js",
+      "name": "./node_modules/css-loader/lib/css-base.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Home": [
+    {
+      "id": "./src/Routes/Home.js",
+      "name": "./src/Routes/Home.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Home.js",
+      "name": "./src/Routes/Home.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Home.js",
+      "name": "./src/Routes/Home.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Home.js",
+      "name": "./src/Routes/Home.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "../hoc/requireAuth": [
+    {
+      "id": "./src/hoc/requireAuth.js",
+      "name": "./src/hoc/requireAuth.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/hoc/requireAuth.js",
+      "name": "./src/hoc/requireAuth.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/hoc/requireAuth.js",
+      "name": "./src/hoc/requireAuth.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/hoc/requireAuth.js",
+      "name": "./src/hoc/requireAuth.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "../hoc/hideAuth": [
+    {
+      "id": "./src/hoc/hideAuth.js",
+      "name": "./src/hoc/hideAuth.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/hoc/hideAuth.js",
+      "name": "./src/hoc/hideAuth.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/hoc/hideAuth.js",
+      "name": "./src/hoc/hideAuth.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/hoc/hideAuth.js",
+      "name": "./src/hoc/hideAuth.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Registration/": [
+    {
+      "id": "./src/Routes/Registration/index.js",
+      "name": "./src/Routes/Registration/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Registration/index.js",
+      "name": "./src/Routes/Registration/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Registration/index.js",
+      "name": "./src/Routes/Registration/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Registration/index.js",
+      "name": "./src/Routes/Registration/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Login/": [
+    {
+      "id": "./src/Routes/Login/index.js",
+      "name": "./src/Routes/Login/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Login/index.js",
+      "name": "./src/Routes/Login/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Login/index.js",
+      "name": "./src/Routes/Login/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Login/index.js",
+      "name": "./src/Routes/Login/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./CreateTeam/": [
+    {
+      "id": "./src/Routes/CreateTeam/index.js",
+      "name": "./src/Routes/CreateTeam/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/index.js",
+      "name": "./src/Routes/CreateTeam/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/index.js",
+      "name": "./src/Routes/CreateTeam/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/index.js",
+      "name": "./src/Routes/CreateTeam/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Workspace": [
+    {
+      "id": "./src/Routes/Workspace/index.js",
+      "name": "./src/Routes/Workspace/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Workspace.js",
+      "name": "./src/Routes/Workspace/Workspace.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/index.js",
+      "name": "./src/Routes/Workspace/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Workspace.js",
+      "name": "./src/Routes/Workspace/Workspace.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/index.js",
+      "name": "./src/Routes/Workspace/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/Workspace.js",
+      "name": "./src/Routes/Workspace/Workspace.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/index.js",
+      "name": "./src/Routes/Workspace/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/Workspace.js",
+      "name": "./src/Routes/Workspace/Workspace.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Sidebar/SidebarHeader": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Sidebar/Channels": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/Channels/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/Channels/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/Channels/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/Channels/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/Channels/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/Channels/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/Channels/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/Channels/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Sidebar/DirectMessages": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/DirectMessages/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/DirectMessages/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/DirectMessages/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/DirectMessages/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/DirectMessages/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/DirectMessages/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/DirectMessages/index.js",
+      "name": "./src/Routes/Workspace/Sidebar/DirectMessages/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Workspace.css": [
+    {
+      "id": "./src/Routes/Workspace/Workspace.css",
+      "name": "./src/Routes/Workspace/Workspace.css",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Workspace.css",
+      "name": "./src/Routes/Workspace/Workspace.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Workspace.css",
+      "name": "./src/Routes/Workspace/Workspace.css",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/Workspace.css",
+      "name": "./src/Routes/Workspace/Workspace.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "!!../../../node_modules/css-loader/index.js??ref--8-1!../../../node_modules/postcss-loader/lib/index.js??postcss!../../../node_modules/sass-loader/lib/loader.js!./Workspace.css": [
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Workspace.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Workspace.css",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Workspace.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Workspace.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Workspace.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Workspace.css",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Workspace.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Workspace.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "react-loadable": [
+    {
+      "id": "./node_modules/react-loadable/lib/index.js",
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-loadable/lib/index.js",
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-loadable/lib/index.js",
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-loadable/lib/index.js",
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "Components/Loadable/Loading": [
+    {
+      "id": "./src/Components/Loadable/Loading.js",
+      "name": "./src/Components/Loadable/Loading.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Components/Loadable/Loading.js",
+      "name": "./src/Components/Loadable/Loading.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Components/Loadable/Loading.js",
+      "name": "./src/Components/Loadable/Loading.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Components/Loadable/Loading.js",
+      "name": "./src/Components/Loadable/Loading.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./SidebarHeader": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.js",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.js",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.js",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.js",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "react-icons/lib/fa/circle": [
+    {
+      "id": "./node_modules/react-icons/lib/fa/circle.js",
+      "name": "./node_modules/react-icons/lib/fa/circle.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-icons/lib/fa/circle.js",
+      "name": "./node_modules/react-icons/lib/fa/circle.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-icons/lib/fa/circle.js",
+      "name": "./node_modules/react-icons/lib/fa/circle.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-icons/lib/fa/circle.js",
+      "name": "./node_modules/react-icons/lib/fa/circle.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./SidebarHeader.scss": [
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "name": "./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "!!../../../../../node_modules/css-loader/index.js??ref--8-1!../../../../../node_modules/postcss-loader/lib/index.js??postcss!../../../../../node_modules/sass-loader/lib/loader.js!./SidebarHeader.scss": [
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./node_modules/postcss-loader/lib/index.js??postcss!./node_modules/sass-loader/lib/loader.js!./src/Routes/Workspace/Sidebar/SidebarHeader/SidebarHeader.scss",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "-!../../../../../node_modules/css-loader/index.js??ref--8-1!../../../../styles/typography.css": [
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./src/styles/typography.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./src/styles/typography.css",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./src/styles/typography.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./src/styles/typography.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./src/styles/typography.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./src/styles/typography.css",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js??ref--8-1!./src/styles/typography.css",
+      "name": "./node_modules/css-loader/index.js??ref--8-1!./src/styles/typography.css",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "react-icon-base": [
+    {
+      "id": "./node_modules/react-icon-base/lib/index.js",
+      "name": "./node_modules/react-icon-base/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/react-icon-base/lib/index.js",
+      "name": "./node_modules/react-icon-base/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/react-icon-base/lib/index.js",
+      "name": "./node_modules/react-icon-base/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/react-icon-base/lib/index.js",
+      "name": "./node_modules/react-icon-base/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "/home/giancarlos/Documents/trainingJavascript/Node/yt/slack-clone/slack-clone-client/node_modules/webpack-dev-server/client/index.js?http://localhost:5000": [
+    {
+      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:5000",
+      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:5000",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:5000",
+      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:5000",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:5000",
+      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:5000",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:5000",
+      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:5000",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "Components/form/FormTemplate": [
+    {
+      "id": "./src/Components/form/FormTemplate.js",
+      "name": "./src/Components/form/FormTemplate.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Components/form/FormTemplate.js",
+      "name": "./src/Components/form/FormTemplate.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Components/form/FormTemplate.js",
+      "name": "./src/Components/form/FormTemplate.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Components/form/FormTemplate.js",
+      "name": "./src/Components/form/FormTemplate.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./graphql/createTeam.graphql": [
+    {
+      "id": "./src/Routes/CreateTeam/graphql/createTeam.graphql",
+      "name": "./src/Routes/CreateTeam/graphql/createTeam.graphql",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/graphql/createTeam.graphql",
+      "name": "./src/Routes/CreateTeam/graphql/createTeam.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/graphql/createTeam.graphql",
+      "name": "./src/Routes/CreateTeam/graphql/createTeam.graphql",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/CreateTeam/graphql/createTeam.graphql",
+      "name": "./src/Routes/CreateTeam/graphql/createTeam.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Login": [
+    {
+      "id": "./src/Routes/Login/Login.js",
+      "name": "./src/Routes/Login/Login.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Login/Login.js",
+      "name": "./src/Routes/Login/Login.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Login/Login.js",
+      "name": "./src/Routes/Login/Login.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Login/Login.js",
+      "name": "./src/Routes/Login/Login.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./graphq/login.graphql": [
+    {
+      "id": "./src/Routes/Login/graphq/login.graphql",
+      "name": "./src/Routes/Login/graphq/login.graphql",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Login/graphq/login.graphql",
+      "name": "./src/Routes/Login/graphq/login.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Login/graphq/login.graphql",
+      "name": "./src/Routes/Login/graphq/login.graphql",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Login/graphq/login.graphql",
+      "name": "./src/Routes/Login/graphq/login.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./graphq/local/loginUser.graphql": [
+    {
+      "id": "./src/Routes/Login/graphq/local/loginUser.graphql",
+      "name": "./src/Routes/Login/graphq/local/loginUser.graphql",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Login/graphq/local/loginUser.graphql",
+      "name": "./src/Routes/Login/graphq/local/loginUser.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Login/graphq/local/loginUser.graphql",
+      "name": "./src/Routes/Login/graphq/local/loginUser.graphql",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Login/graphq/local/loginUser.graphql",
+      "name": "./src/Routes/Login/graphq/local/loginUser.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Registration": [
+    {
+      "id": "./src/Routes/Registration/Registration.js",
+      "name": "./src/Routes/Registration/Registration.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Registration/Registration.js",
+      "name": "./src/Routes/Registration/Registration.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Registration/Registration.js",
+      "name": "./src/Routes/Registration/Registration.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Registration/Registration.js",
+      "name": "./src/Routes/Registration/Registration.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./graphql/mutations/registerMutation.graphql": [
+    {
+      "id": "./src/Routes/Registration/graphql/mutations/registerMutation.graphql",
+      "name": "./src/Routes/Registration/graphql/mutations/registerMutation.graphql",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/Routes/Registration/graphql/mutations/registerMutation.graphql",
+      "name": "./src/Routes/Registration/graphql/mutations/registerMutation.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/Routes/Registration/graphql/mutations/registerMutation.graphql",
+      "name": "./src/Routes/Registration/graphql/mutations/registerMutation.graphql",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/Routes/Registration/graphql/mutations/registerMutation.graphql",
+      "name": "./src/Routes/Registration/graphql/mutations/registerMutation.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "../graphql/local/user.graphql": [
+    {
+      "id": "./src/graphql/local/user.graphql",
+      "name": "./src/graphql/local/user.graphql",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/graphql/local/user.graphql",
+      "name": "./src/graphql/local/user.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/graphql/local/user.graphql",
+      "name": "./src/graphql/local/user.graphql",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/graphql/local/user.graphql",
+      "name": "./src/graphql/local/user.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "../graphql/queries/usersQuery.graphql": [
+    {
+      "id": "./src/graphql/queries/usersQuery.graphql",
+      "name": "./src/graphql/queries/usersQuery.graphql",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/graphql/queries/usersQuery.graphql",
+      "name": "./src/graphql/queries/usersQuery.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/graphql/queries/usersQuery.graphql",
+      "name": "./src/graphql/queries/usersQuery.graphql",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/graphql/queries/usersQuery.graphql",
+      "name": "./src/graphql/queries/usersQuery.graphql",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./defaults": [
+    {
+      "id": "./src/LinkState/defaults.js",
+      "name": "./src/LinkState/defaults.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/LinkState/defaults.js",
+      "name": "./src/LinkState/defaults.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/LinkState/defaults.js",
+      "name": "./src/LinkState/defaults.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/LinkState/defaults.js",
+      "name": "./src/LinkState/defaults.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./resolvers": [
+    {
+      "id": "./src/LinkState/resolvers.js",
+      "name": "./src/LinkState/resolvers.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/LinkState/resolvers.js",
+      "name": "./src/LinkState/resolvers.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/LinkState/resolvers.js",
+      "name": "./src/LinkState/resolvers.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/LinkState/resolvers.js",
+      "name": "./src/LinkState/resolvers.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./typeDefs": [
+    {
+      "id": "./src/LinkState/typeDefs.js",
+      "name": "./src/LinkState/typeDefs.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./src/LinkState/typeDefs.js",
+      "name": "./src/LinkState/typeDefs.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./src/LinkState/typeDefs.js",
+      "name": "./src/LinkState/typeDefs.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./src/LinkState/typeDefs.js",
+      "name": "./src/LinkState/typeDefs.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "graphql-anywhere/lib/async": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/async.js",
+      "name": "./node_modules/graphql-anywhere/lib/async.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/async.js",
+      "name": "./node_modules/graphql-anywhere/lib/async.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/async.js",
+      "name": "./node_modules/graphql-anywhere/lib/async.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/async.js",
+      "name": "./node_modules/graphql-anywhere/lib/async.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./utils": [
+    {
+      "id": "./node_modules/apollo-link-state/lib/utils.js",
+      "name": "./node_modules/apollo-link-state/lib/utils.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/utils.js",
+      "name": "./node_modules/apollo-cache/lib/utils.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-state/lib/utils.js",
+      "name": "./node_modules/apollo-link-state/lib/utils.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/utils.js",
+      "name": "./node_modules/apollo-cache/lib/utils.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-state/lib/utils.js",
+      "name": "./node_modules/apollo-link-state/lib/utils.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/utils.js",
+      "name": "./node_modules/apollo-cache/lib/utils.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-link-state/lib/utils.js",
+      "name": "./node_modules/apollo-link-state/lib/utils.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/utils.js",
+      "name": "./node_modules/apollo-cache/lib/utils.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./inMemoryCache": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./readFromStore": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./writeToStore": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./fragmentMatcher": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./objectCache": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./recordingCache": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "graphql/language/printer": [
+    {
+      "id": "./node_modules/graphql/language/printer.js",
+      "name": "./node_modules/graphql/language/printer.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/graphql/language/printer.js",
+      "name": "./node_modules/graphql/language/printer.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/graphql/language/printer.js",
+      "name": "./node_modules/graphql/language/printer.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/graphql/language/printer.js",
+      "name": "./node_modules/graphql/language/printer.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./visitor": [
+    {
+      "id": "./node_modules/graphql/language/visitor.js",
+      "name": "./node_modules/graphql/language/visitor.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/graphql/language/visitor.js",
+      "name": "./node_modules/graphql/language/visitor.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/graphql/language/visitor.js",
+      "name": "./node_modules/graphql/language/visitor.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/graphql/language/visitor.js",
+      "name": "./node_modules/graphql/language/visitor.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "graphql-anywhere": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/index.js",
+      "name": "./node_modules/graphql-anywhere/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/index.js",
+      "name": "./node_modules/graphql-anywhere/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/index.js",
+      "name": "./node_modules/graphql-anywhere/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/index.js",
+      "name": "./node_modules/graphql-anywhere/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./utilities": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "name": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "name": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "name": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "name": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./graphql": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "name": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "name": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "name": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "name": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "apollo-cache": [
+    {
+      "id": "./node_modules/apollo-cache/lib/index.js",
+      "name": "./node_modules/apollo-cache/lib/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/index.js",
+      "name": "./node_modules/apollo-cache/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/index.js",
+      "name": "./node_modules/apollo-cache/lib/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/index.js",
+      "name": "./node_modules/apollo-cache/lib/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./cache": [
+    {
+      "id": "./node_modules/apollo-cache/lib/cache.js",
+      "name": "./node_modules/apollo-cache/lib/cache.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/cache.js",
+      "name": "./node_modules/apollo-cache/lib/cache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/cache.js",
+      "name": "./node_modules/apollo-cache/lib/cache.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/cache.js",
+      "name": "./node_modules/apollo-cache/lib/cache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./types": [
+    {
+      "id": "./node_modules/apollo-cache/lib/types/index.js",
+      "name": "./node_modules/apollo-cache/lib/types/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/types/index.js",
+      "name": "./node_modules/apollo-cache/lib/types/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/types/index.js",
+      "name": "./node_modules/apollo-cache/lib/types/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/types/index.js",
+      "name": "./node_modules/apollo-cache/lib/types/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./Cache": [
+    {
+      "id": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "name": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "name": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "name": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "name": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./log": [
+    {
+      "id": "./node_modules/webpack/hot/log.js",
+      "name": "./node_modules/webpack/hot/log.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot/log.js",
+      "name": "./node_modules/webpack/hot/log.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot/log.js",
+      "name": "./node_modules/webpack/hot/log.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/hot/log.js",
+      "name": "./node_modules/webpack/hot/log.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./log-apply-result": [
+    {
+      "id": "./node_modules/webpack/hot/log-apply-result.js",
+      "name": "./node_modules/webpack/hot/log-apply-result.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot/log-apply-result.js",
+      "name": "./node_modules/webpack/hot/log-apply-result.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot/log-apply-result.js",
+      "name": "./node_modules/webpack/hot/log-apply-result.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/hot/log-apply-result.js",
+      "name": "./node_modules/webpack/hot/log-apply-result.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./emitter": [
+    {
+      "id": "./node_modules/webpack/hot/emitter.js",
+      "name": "./node_modules/webpack/hot/emitter.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot/emitter.js",
+      "name": "./node_modules/webpack/hot/emitter.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot/emitter.js",
+      "name": "./node_modules/webpack/hot/emitter.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack/hot/emitter.js",
+      "name": "./node_modules/webpack/hot/emitter.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "events": [
+    {
+      "id": "./node_modules/events/events.js",
+      "name": "./node_modules/events/events.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/events/events.js",
+      "name": "./node_modules/events/events.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/events/events.js",
+      "name": "./node_modules/events/events.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/events/events.js",
+      "name": "./node_modules/events/events.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "url": [
+    {
+      "id": "./node_modules/url/url.js",
+      "name": "./node_modules/url/url.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/url/url.js",
+      "name": "./node_modules/url/url.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/url/url.js",
+      "name": "./node_modules/url/url.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/url/url.js",
+      "name": "./node_modules/url/url.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "strip-ansi": [
+    {
+      "id": "./node_modules/strip-ansi/index.js",
+      "name": "./node_modules/strip-ansi/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/strip-ansi/index.js",
+      "name": "./node_modules/strip-ansi/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/strip-ansi/index.js",
+      "name": "./node_modules/strip-ansi/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/strip-ansi/index.js",
+      "name": "./node_modules/strip-ansi/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "loglevel": [
+    {
+      "id": "./node_modules/loglevel/lib/loglevel.js",
+      "name": "./node_modules/loglevel/lib/loglevel.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/loglevel/lib/loglevel.js",
+      "name": "./node_modules/loglevel/lib/loglevel.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/loglevel/lib/loglevel.js",
+      "name": "./node_modules/loglevel/lib/loglevel.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/loglevel/lib/loglevel.js",
+      "name": "./node_modules/loglevel/lib/loglevel.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./socket": [
+    {
+      "id": "./node_modules/webpack-dev-server/client/socket.js",
+      "name": "./node_modules/webpack-dev-server/client/socket.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/socket.js",
+      "name": "./node_modules/webpack-dev-server/client/socket.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/socket.js",
+      "name": "./node_modules/webpack-dev-server/client/socket.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/socket.js",
+      "name": "./node_modules/webpack-dev-server/client/socket.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./overlay": [
+    {
+      "id": "./node_modules/webpack-dev-server/client/overlay.js",
+      "name": "./node_modules/webpack-dev-server/client/overlay.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/overlay.js",
+      "name": "./node_modules/webpack-dev-server/client/overlay.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/overlay.js",
+      "name": "./node_modules/webpack-dev-server/client/overlay.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/overlay.js",
+      "name": "./node_modules/webpack-dev-server/client/overlay.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "ansi-html": [
+    {
+      "id": "./node_modules/ansi-html/index.js",
+      "name": "./node_modules/ansi-html/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/ansi-html/index.js",
+      "name": "./node_modules/ansi-html/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/ansi-html/index.js",
+      "name": "./node_modules/ansi-html/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/ansi-html/index.js",
+      "name": "./node_modules/ansi-html/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "html-entities": [
+    {
+      "id": "./node_modules/html-entities/index.js",
+      "name": "./node_modules/html-entities/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/html-entities/index.js",
+      "name": "./node_modules/html-entities/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/html-entities/index.js",
+      "name": "./node_modules/html-entities/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/html-entities/index.js",
+      "name": "./node_modules/html-entities/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./lib/xml-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/xml-entities.js",
+      "name": "./node_modules/html-entities/lib/xml-entities.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/xml-entities.js",
+      "name": "./node_modules/html-entities/lib/xml-entities.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/xml-entities.js",
+      "name": "./node_modules/html-entities/lib/xml-entities.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/xml-entities.js",
+      "name": "./node_modules/html-entities/lib/xml-entities.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./lib/html4-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/html4-entities.js",
+      "name": "./node_modules/html-entities/lib/html4-entities.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/html4-entities.js",
+      "name": "./node_modules/html-entities/lib/html4-entities.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/html4-entities.js",
+      "name": "./node_modules/html-entities/lib/html4-entities.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/html4-entities.js",
+      "name": "./node_modules/html-entities/lib/html4-entities.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./lib/html5-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/html5-entities.js",
+      "name": "./node_modules/html-entities/lib/html5-entities.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/html5-entities.js",
+      "name": "./node_modules/html-entities/lib/html5-entities.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/html5-entities.js",
+      "name": "./node_modules/html-entities/lib/html5-entities.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/html5-entities.js",
+      "name": "./node_modules/html-entities/lib/html5-entities.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "sockjs-client/dist/sockjs": [
+    {
+      "id": "./node_modules/sockjs-client/dist/sockjs.js",
+      "name": "./node_modules/sockjs-client/dist/sockjs.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/sockjs-client/dist/sockjs.js",
+      "name": "./node_modules/sockjs-client/dist/sockjs.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/sockjs-client/dist/sockjs.js",
+      "name": "./node_modules/sockjs-client/dist/sockjs.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/sockjs-client/dist/sockjs.js",
+      "name": "./node_modules/sockjs-client/dist/sockjs.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "ansi-regex": [
+    {
+      "id": "./node_modules/ansi-regex/index.js",
+      "name": "./node_modules/ansi-regex/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/ansi-regex/index.js",
+      "name": "./node_modules/ansi-regex/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/ansi-regex/index.js",
+      "name": "./node_modules/ansi-regex/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/ansi-regex/index.js",
+      "name": "./node_modules/ansi-regex/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "punycode": [
+    {
+      "id": "./node_modules/punycode/punycode.js",
+      "name": "./node_modules/punycode/punycode.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/punycode/punycode.js",
+      "name": "./node_modules/punycode/punycode.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/punycode/punycode.js",
+      "name": "./node_modules/punycode/punycode.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/punycode/punycode.js",
+      "name": "./node_modules/punycode/punycode.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./util": [
+    {
+      "id": "./node_modules/url/util.js",
+      "name": "./node_modules/url/util.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/url/util.js",
+      "name": "./node_modules/url/util.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/url/util.js",
+      "name": "./node_modules/url/util.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/url/util.js",
+      "name": "./node_modules/url/util.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "querystring": [
+    {
+      "id": "./node_modules/querystring-es3/index.js",
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/querystring-es3/index.js",
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/querystring-es3/index.js",
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/querystring-es3/index.js",
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./decode": [
+    {
+      "id": "./node_modules/querystring-es3/decode.js",
+      "name": "./node_modules/querystring-es3/decode.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/querystring-es3/decode.js",
+      "name": "./node_modules/querystring-es3/decode.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/querystring-es3/decode.js",
+      "name": "./node_modules/querystring-es3/decode.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/querystring-es3/decode.js",
+      "name": "./node_modules/querystring-es3/decode.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ],
+  "./encode": [
+    {
+      "id": "./node_modules/querystring-es3/encode.js",
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "app.chunk.js",
+      "publicPath": "http://localhost:5000/static/app.chunk.js"
+    },
+    {
+      "id": "./node_modules/querystring-es3/encode.js",
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js"
+    },
+    {
+      "id": "./node_modules/querystring-es3/encode.js",
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "app.chunk.js.map",
+      "publicPath": "http://localhost:5000/static/app.chunk.js.map"
+    },
+    {
+      "id": "./node_modules/querystring-es3/encode.js",
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "app.51e6ccf21b6f32ada881.hot-update.js.map",
+      "publicPath": "http://localhost:5000/static/app.51e6ccf21b6f32ada881.hot-update.js.map"
+    }
+  ]
+}

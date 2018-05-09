@@ -2,6 +2,8 @@
 import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+
 // combine link packages
 import { ApolloLink } from 'apollo-link';
 // react component
@@ -19,6 +21,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 // local state with apollo!!
 import { withClientState } from 'apollo-link-state';
 import { defaults, resolvers, typeDefs } from './LinkState/';
+
 
 // css
 // we already are using the cdn
@@ -54,7 +57,7 @@ const httpLink = createHttpLink({
 });
 
 const authMiddleware = new ApolloLink((operation, forward) => {
-  console.log('middleware authMiddleware', operation);
+  // console.log('middleware authMiddleware', operation);
   const user = localStorage.getItem('user');
 
   operation.setContext({
@@ -67,14 +70,13 @@ const authMiddleware = new ApolloLink((operation, forward) => {
   return forward(operation);
 });
 
-const authAfterware = new ApolloLink((operation, forward) => {
-  console.log('operation context', operation.getContext());
-
-  return forward(operation).map((response) => {
+const authAfterware = new ApolloLink((operation, forward) =>
+  forward(operation).map((response) => {
+    // console.log('operation context', operation.getContext());
     const { headers } = operation.getContext();
     const user = localStorage.getItem('user');
 
-    console.log('headres', headers);
+    // console.log('headres', headers);
 
     if (headers && user) {
       const newUser = { ...JSON.parse(user) };
@@ -89,8 +91,7 @@ const authAfterware = new ApolloLink((operation, forward) => {
     }
 
     return response;
-  });
-});
+  }));
 
 const cache = new InMemoryCache();
 
@@ -114,9 +115,11 @@ const client = new ApolloClient({
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
+  ReactDOM.hydrate(
     <ApolloProvider client={client}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ApolloProvider>,
     document.getElementById('app'),
   );

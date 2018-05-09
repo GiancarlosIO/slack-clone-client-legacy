@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Home from './Home';
 
@@ -18,16 +18,14 @@ import CreateTeam from './CreateTeam/';
 import Workspace from './Workspace';
 
 const Routes = () => (
-  <BrowserRouter>
-    <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/registration" component={hideAuth(Registration)} />
-      <Route exact path="/login" component={hideAuth(Login)} />
-      <Route exact path="/create-team" component={requireAuth(CreateTeam)} />
-      <Route exact path="/messages" component={Workspace} />
-      <Route component={() => <h2>Not found</h2>} />
-    </Switch>
-  </BrowserRouter>
+  <Switch>
+    <Route exact path="/" component={Home} />
+    <Route exact path="/registration" component={hideAuth(Registration)} />
+    <Route exact path="/login" component={hideAuth(Login)} />
+    <Route exact path="/create-team" component={requireAuth(CreateTeam)} />
+    <Route exact path="/messages" component={Workspace} />
+    <Route component={() => <h2>Not found</h2>} />
+  </Switch>
 );
 
 export default Routes;

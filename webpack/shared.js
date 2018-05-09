@@ -2,6 +2,7 @@
 const webpack = require('webpack');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer'); // eslint-disable-line
+const { ReactLoadablePlugin } = require('react-loadable/webpack');
 
 // always use absolute paths for urls directories
 const path = require('path');
@@ -22,6 +23,9 @@ delete newEntries.vendor;
 
 module.exports = {
   entry: newEntries,
+  optimization: {
+    runtimeChunk: true,
+  },
   output: {
     path: path.resolve(__dirname, '..', 'server/public/dist'),
     publicPath: '/static/js/',
@@ -48,6 +52,10 @@ module.exports = {
     new CircularDependencyPlugin({
       exclude: /a\.js|node_modules/,
       failOnError: false,
+    }),
+
+    new ReactLoadablePlugin({
+      filename: './server/public/dist/react-loadable.json',
     }),
 
     // activate if you need
